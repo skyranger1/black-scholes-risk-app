@@ -1,0 +1,73 @@
+-- Medidas DAX para o Power BI
+
+-- Preço Médio da Ação
+Avg Stock Price = AVERAGE(
+    'options_data'[Stock_Price]
+)
+
+-- Preço Médio da Call
+Avg Call Price = AVERAGE(
+    'options_data'[Call_Price]
+)
+
+-- Preço Médio da Put
+Avg Put Price = AVERAGE(
+    'options_data'[Put_Price]
+)
+
+-- Delta Médio da Call
+Avg Delta Call = AVERAGE(
+    'options_data'[Delta_Call]
+)
+
+-- Delta Médio da Put
+Avg Delta Put = AVERAGE(
+    'options_data'[Delta_Put]
+)
+
+-- Gamma Médio
+Avg Gamma = AVERAGE(
+    'options_data'[Gamma]
+)
+
+-- Vega Médio
+Avg Vega = AVERAGE(
+    'options_data'[Vega]
+)
+
+-- Theta Médio da Call
+Avg Theta Call = AVERAGE(
+    'options_data'[Theta_Call]
+)
+
+-- Theta Médio da Put
+Avg Theta Put = AVERAGE(
+    'options_data'[Theta_Put]
+)
+
+-- Rho Médio da Call
+Avg Rho Call = AVERAGE(
+    'options_data'[Rho_Call]
+)
+
+-- Rho Médio da Put
+Avg Rho Put = AVERAGE(
+    'options_data'[Rho_Put]
+)
+
+-- Volatilidade Média
+Avg Volatility = AVERAGE(
+    'options_data'[Volatility]
+)
+
+-- Taxa de Juros Média
+Avg Risk Free Rate = AVERAGE(
+    'options_data'[Risk_Free_Rate]
+)
+
+-- Tempo Médio até o Vencimento
+Avg Time to Maturity = AVERAGE(
+    'options_data'[Time_to_Maturity_Years]
+)
+
+
