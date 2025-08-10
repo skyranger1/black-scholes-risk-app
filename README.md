@@ -1,7 +1,7 @@
 
 # black-scholes-risk-app
 
-Este projeto é uma calculadora de preço teórico de opções (call e put) usando o modelo Black-Scholes, com simulação de preços históricos, cálculo das gregas (Delta, Gamma, Vega etc) e visualização dos dados no Power BI. Foi desenvolvido como um pet project para portfólio de um estudante de Estatística focado em análise de risco quantitativa.
+Este projeto é uma calculadora de preço teórico de opções (call e put) usando o modelo Black-Scholes, com simulação de preços históricos, cálculo das gregas (Delta, Gamma, Vega etc) e visualização dos dados no Power BI. Foi desenvolvido como um pet project para o portfólio de João Gabriel Araujo
 
 ## Como Rodar o Projeto
 
